@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Make the Pledge",
     description: "Sonu Stream Artist Fund",
-    images: [`${baseUrl}/button.webp`],
+    images: [`${baseUrl}/pledge-frame.jpg`],
   },
   other: {
     ...frameMetadata,
