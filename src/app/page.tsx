@@ -1,5 +1,6 @@
 import { getFrameMetadata } from "@coinbase/onchainkit";
 import { Metadata } from "next";
+import Image from "next/image";
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "";
 
@@ -41,9 +42,13 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <>
-      <h1>Leaderboard</h1>
-      <p>TODO</p>
-    </>
+    <div className="landing">
+      <Image
+        src="/pledge-frame.jpg"
+        alt="sonu pledge"
+        width={800}
+        height={450}
+      />
+    </div>
   );
 }
